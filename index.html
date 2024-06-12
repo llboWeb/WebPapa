@@ -1,167 +1,157 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <header class="header__container">
+      <div class="header container">
+        <img class="header__logo" src="images/logo_218px.png" alt="logo" width="50px" height=auto>          
+        <ul class="header__menu">
+            <li><a class="header__link" href="#inici">Inici</a></li>
+            <li><a class="header__link" href="#noveles">Novel·les</a></li>
+            <li><a class="header__link" href="#autor">Autor</a></li>
+            <li><a class="header__link" href="#blog">Blog</a></li>
+            <li><a class="header__link" href="#contacte">Contacte</a></li>
+          </ul>
+          <ul class="header__flags">
+            <li>
+              <a class="header__flag_cat" href="https://marcjbonet.com/">
+                <img class="header__flag__senyera" src="images/senyera.png">
+              </a>
+            </li>
+            <li>
+              <a class="header__flag_cast" href="https://marcjbonet.com/cast.html">
+                <img class="header__flag__espanya" src="images/espanya.png">
+              </a>
+            </li>
+          </ul>
+          <button class="header__bars">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+            </svg>          
+        </button>
+      </div>
+    </header>
 
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Marc  J Bonet</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./styles/styles.css">
-    </head>
-    <body>
-        <header>
-            <div class="navbar_container">
-                <img class="logo" src="images/logo_218px.png" alt="logo" width="50px" height=auto>
-                <nav>
-                    <ul class="nav__links">
-                        <li><a href="#inici">Inici</a></li>
-                        <li><a href="#novelles">Novel·les</a></li>
-                        <li><a href="#blog">Blog</a></li>
-                        <li><a href="#autor">Autor</a></li>
-                        <li><a href="#contacte">Contacte</a></li>
-                    </ul>
-                </nav>
-                <div class="flag_container">
-                    <a href="https://marcjbonet.com/">
-                        <img class="cat" src="images/senyera.png" alt="cat" width="50px" height=auto>
-                    </a>
-                    <a href="https://marcjbonet.com/cast.html"><img class="esp" src="images/espanya.png" alt="esp" width="50px" height=auto ></a>
-                </div>
-            </div>
-        </header>
+    <!-- Mobile navigation -->
 
-        <section id="inici" class="inici-container">
-            <div class="section-header">
-                <h1>Marc J. Bonet Binimelis</h1>
-                <h2>Web oficial del autor: Aquest web es troba encara en desdenvolupament.</h2>
-            </div>
-        </section>
-        <section id="novelles">
-            <div class="noveles-container-1">
-                <div class="novela-1">
-                    <div class="text-novela-container-1"> 
-                        <h1>Llumenera de juny 1715</h1>
-                        <p>Un relat amb un misteri que envolta els darrers diez del Sac de Regiment de la vila de Felanitx, en clau rural, Llumenera de juny, 1715 explica literàriament aquell drama col·lectiu, decidint lluny dels illencs, interessat en les Corts Europees i per una aristocràcia que no havia trepitjat els nostres paratges, però on la fam i els conflictes que provocà escanyaren els seus habitants.</p>
-                            <div class="novela-button-container-1">
-                                <a href="https://elcepilanansa.com/producte/llumenera-de-juny-1715/" class="novela-link-button-1">Compra</a>
-                            </div>
-                        </div>
-                    <div class="imatge-novela-container-1">
-                        <img class="Imatge-llumenera" src="images/llumenera-juny-1715-marc-josep-bonet-cep-nansa-edicions.jpg" alt="logo" height=650px width=auto >
-                    </div>
-                </div>
-            </div>
-        
-            <div class="noveles-container-2">
-                <div class="novela-2">
-                    <div class="imatge-novela-container-2">
-                        <img class="Imatge-arca" src="images/Foto-arca-sa-lleona.png" alt="foto-arca" height=650px width=auto >
-                    </div>
-                    <div class="text-novela-container-2"> 
-                        <h1>Arcà de Sa Lleona</h1>
-                        <p>Una nit sa Lleona a prop de s'Horta recobra vida. Un misteri que lluny d'atemorir
-                        la contrada fa despertar els misteris que amaga l'escultura i els vincles amb la batería de canons construida al puig a prop de s'Horta durant la Guerra Civil espanyola.</p>
-                            <div class="novela-button-container-2">
-                                <a href="https://www.rapitbook.com/rapitbook/eshop/1-1-Novelas/0/5/290-L-arca-de-la-lleona//comment#anch1" class="novela-link-button-2">Compra</a>
-                            </div>
-                        </div>
-                </div>
-            </div>
-            <div class="noveles-container-3">
-                <div class="novela-3">
-                    <div class="text-novela-container-3"> 
-                        <h1>La cova de l'últim gimneta</h1>
-                        <p>123 aC, la cultura talaiòtica pateix un revés sense retorn: les Illes Gimnèsies (les actuals Mallorca i Menorca) són envaïdes pels romans. La Cova de l’Últim Gimneta et trasllada a aquells dies de la mà de l’heroi Bennabels i la fonera Kara. Un món únic i genuí del qual només ens queden les seves runes en desenes de jaciments que cobren vida en aquestes pàgines. Una novel·la de romans en què els protagonistes són aquest poble conquerit i la seva cultura.</p>
-                            <div class="novela-button-container-3">
-                                <a href="https://elcepilanansa.com/producte/la-cova-de-lultim-gimneta/" class="novela-link-button-3">Compra</a>
-                            </div>
-                        </div>
-                    <div class="imatge-novela-container-3">
-                        <img class="Imatge-cova" src="images/cova-qualitat.png" alt="foto-cova" height=650px width=auto >
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="autor" class="autor-container">
-            <div class="autor-aux">
-                <h1>Sobre l'autor</h1>
-                <h2>Marc J. Bonet Binimelis</h2>
-                <div class="autor-container">
-                    <div class="text-autor-container">
-                        <p>Nascut a Felanitx l'abril de 1966. Ha viscut tota la seva infancia al llogarte de s'Horta. Fill de la pagesia i mallorquí de soca-rel, es defineix com a defensor vehement de la cultura 
-                        i patrimoni balears. Ha viscut a Soria, Barcelona, Sant Cugat del Vallès i, actualment, a Palma; <i>"Ciutat de Mallorca"</i> com a ell agrada dir-li. És llicenciat per Medicina i Cirurgia per la UAB, anestesiòleg. Actualment fa feina a la Unitat de Reanimació Post Quirúrgica a l'Hospital Son Llàtzer, a Palma de Mallorca. 
-                        També va col·laborar com a docent a la Unitat Docent de la Vall d'Hebron de la Facultat de Medicina de la UAB. En l'àmbit no científic-mèdic va col·laborar en la revistra trimestral <i>"Papers de Son Llàtzer"</i> en 
-                        la secció de relats de <i>"Històries sense clínica"</i>, en un temps on la cultura tenia molt més pes, i va participar en els Premis Son Llàtzer de Relat Curt en Català, on va ser guanyador l'any 2009.
-                        Li agrada escriure poesia i novel·la. L'obra <i>La Cova de l'últim Gimneta</i> és la primera novel·la que es decideix a publicar en català.
-                        </p>
-                    </div>
-                    <div class="autor-imatge-container">
-                        <img class="Imatge-papa" src="images/foto-papa-quality.jpg" alt="Foto-papa" height="500px" width="auto">
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <section id="blog" class="blog-container">
-            <div class="section-header">
-                <div class="blog-line">
-                    <h1>Tens ganes de més?</h1>
-                    <h2>Visita els blogs de l'autor</h2>
-                    <div class="blog-button-container">
-                        <a href="https://bonetius.blogspot.com/" class="blog-link-button">bonetius</a>
-                        <a href="https://mundoreservaladistopia.blogspot.com/?m=1" class="blog-link-button">distopia</a>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <div class="mobile-nav">
+      <nav>
+        <ul class="mobile-nav__menu">
+          <ul class="header__mobile-flags">
+            <li class="test">
+              <a class="header__flag_cat" href="https://marcjbonet.com/">
+                <img class="header__flag__senyera" src="images/senyera.png">
+              </a>
+            </li>
+            <li>
+              <a class="header__flag_cast" href="https://marcjbonet.com/cast.html">
+                <img class="header__flag__espanya" src="images/espanya.png">
+              </a>
+            </li>
+          </ul>
+          <li><a class="mobile-nav__link" href="#inici">Inici</a></li>
+          <li><a class="mobile-nav__link" href="#noveles">Novel·les</a></li>
+          <li><a class="mobile-nav__link" href="#autor">Autor</a></li>
+          <li><a class="mobile-nav__link" href="#blog">Blog</a></li>
+          <li><a class="mobile-nav__link" href="#contacte">Contacte</a></li>
+        </ul>
+      </nav>
+    </div>
 
-        <section id="contacte" class="contacte-container">
-            <div class="section-header">
-                <h1>Contacte</h1>
-            </div>
-            <div id="container-logos" class="logo-contacte-container">
-                <div id="columna-contacte-1" class="columna-contacte-1">
-                    <div class="logo-container-contacte-1">
-                        <img class="insta-logo-1" src="images/insta-logo.png" alt="insta-1" width="150px" height=auto>
-                    </div>
-                    <div class="text-container-contacte-1">
-                        <h1>@marcjbonet</h1>
-                        <h2>Compte principal d'instagram</h2>
-                        <div class="novela-button-container-3">
-                            <a href="https://www.instagram.com/marcjbonet?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="novela-link-button-3">Visita</a>
-                        </div>
-                    </div>    
-                </div>
-                <div id="columna-contacte-2" class="columna-contacte-2">
-                    <div class="logo-container-contacte-2">
-                        <img class="twitter-logo" src="images/twitter-logo.png" alt="twitter" width="150px" height=auto>
-                    </div>
-                    <div class="text-container-contacte-2">
-                        <h1>@Mjbonet</h1>
-                        <h2>Compte principal de X</h2>
-                        <div class="novela-button-container-3">
-                            <a href="https://x.com/Mjbonet" class="novela-link-button-3">Visita</a>
-                        </div>
-                    </div>    
-                </div>
-                <div id="columna-contacte-3" class="columna-contacte-3">
-                    <div class="logo-container-contacte-3">
-                        <img class="insta-logo-2" src="images/insta-logo.png" alt="insta-2" width="150px" height=auto>
-                    </div>
-                    <div class="text-container-contacte-3">
-                        <h1>@mundoreservaladistopia</h1>
-                        <h2>Compte alternatiu d'instagram</h2>
-                        <div class="novela-button-container-3">
-                            <a href="https://www.instagram.com/mundoreservaladistopia?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="novela-link-button-3">Visita</a>
-                        </div>
-                    </div>    
-                </div>    
-            </div>
-            
-        </section>
-        <footer class="footer">
-            <p>&#169 Copyright 2024</p>
-        </footer>
-    </body>
+    <!-- End Mobile navigation -->
+    <main>
+      <section id="inici" class="inici container">
+        <h1 class="inici__title">Marc J. Bonet Binimelis</h1>
+        <h2 class="inici__subtitle">Web oficial del autor.</h2>
+      </section>
+      <section id="noveles" class="noveles container">
+        <div class="noveles__novela-1">
+          <div class="noveles__text-container-1">
+            <h1 class="noveles__titol-1">Llumenera de <br> juny 1715</h1>
+            <p class="noveles__descripcio-1">Un relat i el misteri envolten els darrers dies del régimen “de Sac e de Sort” de la Vila de Felanitx, en clau rural, Llumenera de juny 1715 explica literàriament aquell drama col·lectiu, decidint lluny dels illencs, interessat en les Corts Europees i per una aristocràcia que no havia trepitjat els nostres paratges, però on la fam i els conflictes que provocà escanyaren els seus habitants.</p>
+            <a class="noveles__link-button-1" href="https://elcepilanansa.com/producte/llumenera-de-juny-1715/">Compra</a>
+          </div>
+          <div class="noveles__imatge-1">
+            <img class="Imatge-llumenera" src="images/llumenera-juny-1715-marc-josep-bonet-cep-nansa-edicions.jpg">
+          </div>
+        </div>
+        <div class="noveles__novela-2">
+          <div class="noveles__imatge-2">
+            <img class="Imatge-arca" src="images/Foto-arca-sa-lleona.png">
+          </div>
+          <div class="noveles__text-container-2">
+            <h1 class="noveles__titol-2">Arcà de<br>Sa Lleona</h1>
+            <p class="noveles__descripcio-2">Una nit sa Lleona a prop de s'Horta recobra vida. Un misteri que lluny d'atemorir
+              la contrada fa despertar els misteris que amaga l'escultura i els vincles amb la batería de canons construida al puig a prop de s'Horta durant la Guerra Civil espanyola.</p>
+            <a class="noveles__link-button-2" href="https://www.rapitbook.com/rapitbook/eshop/1-1-Novelas/0/5/290-L-arca-de-la-lleona//comment#anch1">Compra</a>
+          </div>
+        </div>
+        <div class="noveles__novela-3">
+          <div class="noveles__text-container-3">
+            <h1 class="noveles__titol-3">La cova de <br> l'últim gimneta</h1>
+            <p class="noveles__descripcio-3">123 aC, la cultura talaiòtica pateix un revés sense retorn: les Illes Gimnèsies (les actuals Mallorca i Menorca) són envaïdes pels romans. La Cova de l'Últim Gimneta et trasllada a aquells dies de la mà de l'heroi Bennabels i la fonera Kara. Un món únic i genuí del qual només ens queden les seves runes en desenes de jaciments que cobren vida en aquestes pàgines. Una novel·la de romans en què els protagonistes són aquest poble conquerit i la seva cultura.</p>
+            <a class="noveles__link-button-3" href="https://elcepilanansa.com/producte/la-cova-de-lultim-gimneta/">Compra</a>
+          </div>
+          <div class="noveles__imatge-3">
+            <img class="Imatge-cova" src="images/cova-qualitat.png">
+          </div>
+        </div>
+      </section>
+
+      <section id="autor" class="autor container">
+        <h1 class="autor__titol">Sobre l'autor</h1>
+        <h2 class="autor__subtitol">Marc J. Bonet Binimelis</h2>
+        <div class="autor__contingut">
+          <p class="autor__descripcio"> Nascut a Felanitx l'abril de 1966. Ha viscut tota la seva infancia al llogarte de s'Horta. Fill de la pagesia i mallorquí de soca-rel, es defineix com a defensor vehement de la cultura 
+            i patrimoni balears. Ha viscut a Soria, Barcelona, Sant Cugat del Vallès i, actualment, a Palma; <i>"Ciutat de Mallorca"</i> com a ell agrada dir-li. És llicenciat per Medicina i Cirurgia per la UAB, anestesiòleg. Actualment fa feina a la Unitat de Reanimació Post Quirúrgica a l'Hospital Son Llàtzer, a Palma de Mallorca. 
+            També va col·laborar com a docent a la Unitat Docent de la Vall d'Hebron de la Facultat de Medicina de la UAB. En l'àmbit no científic-mèdic va col·laborar en la revistra trimestral <i>"Papers de Son Llàtzer"</i> en 
+            la secció de relats de <i>"Històries sense clínica"</i>, en un temps on la cultura tenia molt més pes, i va participar en els Premis Son Llàtzer de Relat Curt en Català, on va ser guanyador l'any 2009.
+            Li agrada escriure poesia i novel·la. L'obra <i>La Cova de l'últim Gimneta</i> és la primera novel·la que es decideix a publicar en català.
+          </p>
+          <img class="autor__image" src="images/foto-papa-quality.jpg">
+        </div>
+      </section>
+
+      <section id="blog" class="blog container">
+        <h1 class="blog__titol">Tens ganes de més?</h1>
+        <h2 class="blog__subtitol">Visita els blogs de l'autor</h2>
+        <div class="blog__buttons_container">
+          <a href="https://bonetius.blogspot.com/" class="blog__link-button">bonetius</a>
+          <a href="https://mundoreservaladistopia.blogspot.com/?m=1" class="blog__link-button">distopia</a>
+        </div>
+      </section>
+
+      <section id="contacte" class="contacte container">
+        <h1 class="contacte__titol">Contacte</h1>
+        <div class="contacte__fila_icones">
+          <div class="contacte__icone_1">
+            <h1 class=contacte__incone_titol_1>@marcjbonet</h1>
+            <h2 class="contacte__icone_subtitol_1">Compte principla d'instagram</h2>
+            <img class="contacte__incone_insta_1" src="images/insta-logo.png">
+            <a href="https://www.instagram.com/marcjbonet?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="contacte__icone_button_1">Visita</a>
+          </div>
+          <div class="contacte__icone_2">
+            <h1 class=contacte__incone_titol_2>@Mjbonet</h1>
+            <h2 class="contacte__icone_subtitol_2">Compte principal de X</h2>
+            <img class="contacte__incone_twitter" src="images/twitter-logo.png">
+            <a href="https://x.com/Mjbonet" class="contacte__icone_button_1">Visita</a>
+          </div>
+          <div class="contacte__icone_3">
+            <h1 class=contacte__incone_titol_3>@mundoreservaladistopia</h1>
+            <h2 class="contacte__icone_subtitol_3">Compte alternatiu d'instagram</h2>
+            <img class="contacte__incone_insta_2" src="images/insta-logo.png">
+            <a href="https://www.instagram.com/mundoreservaladistopia?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="contacte__icone_button_1">Visita</a>
+          </div>
+        </div>
+      </section>
+      
+    </main>
+    <footer class="footer"><h1 class="footer__copyright">&#169;Copyright 2024</h1><p class="footer__text">Aquest web fa servir el servei de hosting de GitHub Pages i, pentant, empra cookies per a una millor experiència d'usuari. Pots consultar la política de cookies a <a class="footer__link" href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement#our-use-of-cookies-and-tracking">política de cookies</a>.</p></footer>
+    <script type="module" src="src/main.js"></script>
+  </body>
 </html>
