@@ -1,0 +1,273 @@
+.autor{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+    align-items: center;
+}
+
+.autor__contingut{
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+.autor__titol{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    font-size: var(--size-2xl);
+    margin: 0; /* Removes default margin */
+    font-weight: bold; /* Makes the font bold */
+}
+
+.autor__subtitol{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    color: gray;
+    text-decoration: none;
+    font-size: var(--size-lg);
+    margin: 0; /* Removes default margin */
+    padding-top: 1rem;
+}
+
+.autor__descripcio{
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    color: #888888;
+    text-decoration: none;
+    text-align: justify;
+    max-width: 450px;
+    line-height: 1.25rem;  
+    font-size: var(--size-sm);
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.autor__image{
+    display: block;
+    height: 300px;
+    width: auto;
+    padding-left: 0px;
+    padding-top: 4rem;
+}
+
+/*xs*/
+@media (min-width: 475px) {
+    .autor__titol{
+        font-size: var(--size-4xl);
+    }
+    .autor__subtitol{
+        font-size: var(--size-xl);
+    }
+    .autor__contingut{
+        width: 100%;
+        display: inline-flex;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .autor__descripcio{
+        font-family: "Inter", sans-serif;
+        font-weight: 300;
+        color: #888888;
+        text-decoration: none;
+        text-align: justify;
+        max-width: 500px;
+        line-height: 1.5rem;  
+        font-size: var(--size-m);
+        padding-right: 0rem;
+    }
+    .autor__image{
+        display: block;
+        height: 400px;
+        width: auto;
+        padding-left: 0px;
+        padding-top: 4rem;
+    }
+}
+
+/*s*/
+@media (min-width: 640px) {
+    .autor__titol{
+        font-size: var(--size-2xl);
+    }
+    .autor__subtitol{
+        font-size: var(--size-xl);
+    }
+    .autor__contingut{
+        width: 100%;
+        display: inline-flex;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .autor__descripcio{
+        font-family: "Inter", sans-serif;
+        font-weight: 300;
+        color: #888888;
+        text-decoration: none;
+        text-align: justify;
+        max-width: 550px;
+        line-height: 1.25rem;  
+        font-size: var(--size-m);
+        padding-right: 0rem;
+    }
+    .autor__image{
+        display: block;
+        height: 400px;
+        width: auto;
+        padding-left: 0px;
+        padding-top: 4rem;
+    }
+}
+/*m*/
+@media (min-width: 768px) {
+    .autor__contingut{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .autor__titol{
+        font-size: var(--size-3xl);
+    }
+    .autor__descripcio{
+        flex: 1; /* Takes up the remaining space after the image is laid out */
+        font-family: "Inter", sans-serif;
+        font-weight: 300;
+        color: #888888;
+        text-decoration: none;
+        text-align: justify;
+        max-width: 450px;
+        line-height: 1.25rem;  
+        font-size: var(--size-m);
+        padding-right: 0rem;
+    }
+    .autor__image{
+        display: block;
+        height: 400px;
+        width: auto;
+        padding-left: 70px;
+        padding-top: 0rem;
+    }
+}
+/*l*/
+@media (min-width: 1024px) {
+    .autor__contingut{
+        width: 90%;
+    }
+    .autor__titol{
+        font-size: var(--size-4xl);
+    }
+    .autor__descripcio{
+        flex: 1; /* Takes up the remaining space after the image is laid out */
+        font-family: "Inter", sans-serif;
+        font-weight: 300;
+        color: #888888;
+        text-decoration: none;
+        text-align: justify;
+        max-width: 450px;
+        line-height: 1.5rem;  
+        font-size: var(--size-lg);
+        padding-right: 0rem;
+        padding-top: 1rem;
+    }
+    
+    .autor__image{
+        display: block;
+        height: 550px;
+        width: auto;
+        padding-left: 100px;
+        padding-top: 0rem;
+    }
+
+}
+/*xl*/
+@media (min-width: 1280px) {
+    .autor__contingut{
+        width: 80%;
+    }
+    .autor__descripcio{
+        flex: 1; /* Takes up the remaining space after the image is laid out */
+        font-family: "Inter", sans-serif;
+        font-weight: 300;
+        color: #888888;
+        text-decoration: none;
+        text-align: justify;
+        max-width: 450px;
+        line-height: 1.5rem;  
+        font-size: var(--size-xl);
+        padding-right: 0rem;
+    }
+    
+    .autor__image{
+        display: block;
+        height: 550px;
+        width: auto;
+        padding-left: 100px;
+        padding-top: 0rem;
+    }
+}
+
+/*2xl*/
+@media (min-width: 1536px) {
+    .autor{
+        margin-top: 10rem;
+    }
+    
+    .autor__contingut{
+        display: inline-flex;
+        flex-direction: row;
+        margin-top: 5rem;
+        align-items: center;
+        justify-content: space-between;
+        /* border: 1px solid red; */
+        width: 70%;
+    }
+    
+    .autor__titol{
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+        color: black;
+        text-decoration: none;
+        font-size: 54px; /* Large text size, adjust as needed */
+        margin: 0; /* Removes default margin */
+        font-weight: bold; /* Makes the font bold */
+    }
+    
+    .autor__subtitol{
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        font-weight: 300;
+        color: gray;
+        text-decoration: none;
+        font-size: 18px; /* Large text size, adjust as needed */
+        margin: 0; /* Removes default margin */
+        padding-top: 1rem;
+    }
+    
+    .autor__descripcio{
+        font-family: "Inter", sans-serif;
+        font-weight: 300;
+        color: #888888;
+        text-decoration: none;
+        text-align: justify;
+        max-width: 450px;
+        line-height: 1.5rem;  
+        font-size: var(--size-xl);
+        padding-right: 0rem;
+    }
+    
+    .autor__image{
+        display: flex;
+        height: 600px;
+        width: auto;
+        padding-left: 140px;
+        padding-top: 0;
+    }
+} 
