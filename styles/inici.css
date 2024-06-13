@@ -1,0 +1,36 @@
+.inici{
+    padding: 175px 10%;
+    text-align: center;
+}
+
+.inici__title{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    font-size: var(--size-4xl); /* Large text size, adjust as needed */
+    margin: 0; /* Removes default margin */
+    padding: 10px 0; /* Adds some padding above and below the text */
+    font-weight: bold; /* Makes the font bold */
+}
+
+.inici__subtitle{
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    color: gray;
+    text-decoration: none;
+    font-size: var(--size-m); /* Large text size, adjust as needed */
+    margin: 0; /* Removes default margin */
+    padding: 10px 0; /* Adds some padding above and below the text */
+
+}
+
+@media (min-width: 768px) {
+    .inici__title{font-size: var(--size-5xl);}
+    .inici__subtitle{font-size: var(--size-lg);}  
+}
+
+@media (min-width: 1024px) {
+    .inici__title{font-size: var(--size-5xl);}
+    .inici__subtitle{font-size: var(--size-lg);}
+}
