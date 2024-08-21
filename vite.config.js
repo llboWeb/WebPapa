@@ -1,6 +1,5 @@
-// vite.config.js
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vite';
 
 export default defineConfig({
-  // other configurations if needed
-})
+  base: '/WebPapa/', // Use the repo name after the '/' as it's the part after your username
+});
