@@ -11,7 +11,8 @@
     justify-content: space-between; /* Spaces out the children */
 }
 
-.noveles__novela-2{
+.noveles__novela-2,
+.noveles__novela-4{
     box-sizing: border-box;
     margin: 0;
     margin-bottom: 2rem;
@@ -25,8 +26,8 @@
 
 .noveles__text-container-1,
 .noveles__text-container-2,
-.noveles__text-container-3
-{
+.noveles__text-container-3,
+.noveles__text-container-3{
     margin-left: 10px;
     margin-right: 10px;
     display: flex;
@@ -38,7 +39,8 @@
 
 .noveles__titol-1,
 .noveles__titol-2,
-.noveles__titol-3{
+.noveles__titol-3,
+.noveles__titol-4{
     font-family: "Inter", sans-serif;
     text-align: center;
     font-weight: bold;
@@ -51,7 +53,8 @@
 
 .noveles__descripcio-1,
 .noveles__descripcio-2,
-.noveles__descripcio-3{
+.noveles__descripcio-3,
+.noveles__descripcio-4{
     flex: 1; /* Takes up the remaining space after the image is laid out */
     font-family: "Inter", sans-serif;
     font-weight: 300;
@@ -67,7 +70,8 @@
 
 .noveles__link-button-1,
 .noveles__link-button-2,
-.noveles__link-button-3{
+.noveles__link-button-3,
+.noveles__link-button-4{
     /* display: inline-block; */
     margin-top: 20px; /* Adds some space above the button */
     padding: 0.5em 1em; /* Padding inside the button */
@@ -84,20 +88,23 @@
 
 .noveles__link-button-1:hover,
 .noveles__link-button-2:hover,
-.noveles__link-button-3:hover{
+.noveles__link-button-3:hover,
+.noveles__link-button-4:hover{
     transform: translateY(-3px);
 }
 
 .noveles__imatge-1,
 .noveles__imatge-2,
-.noveles__imatge-3{
+.noveles__imatge-3,
+.noveles__imatge-4{
     padding-left: 0;
     padding-top: 2rem;
 }
 
 .Imatge-llumenera,
 .Imatge-arca,
-.Imatge-cova{
+.Imatge-cova,
+.Imatge-ederek{
     height: 300px;
     width: auto;
     align-items: center;
@@ -109,18 +116,21 @@
 @media (min-width: 475px) {
     .Imatge-llumenera,
     .Imatge-arca,
-    .Imatge-cova{
+    .Imatge-cova,
+    .Imatge-ederek{
         height: 350px;
         width: auto;
     }
     .noveles__titol-1,
     .noveles__titol-2,
-    .noveles__titol-3{
+    .noveles__titol-3,
+    .noveles__titol-4{
         font-size: var(--size-4xl);
     }
     .noveles__descripcio-1,
     .noveles__descripcio-2,
-    .noveles__descripcio-3{
+    .noveles__descripcio-3,
+    .noveles__descripcio-4{
         font-size: var(--size-lg);
     }
 }
@@ -129,18 +139,21 @@
 @media (min-width: 640px) {
     .Imatge-llumenera,
     .Imatge-arca,
-    .Imatge-cova{
+    .Imatge-cova,
+    .Imatge-ederek{
         height: 400px;
         width: auto;
     }
     .noveles__titol-1,
     .noveles__titol-2,
-    .noveles__titol-3{
+    .noveles__titol-3,
+    .noveles__titol-4{
         font-size: var(--size-2xl);
     }
     .noveles__descripcio-1,
     .noveles__descripcio-2,
-    .noveles__descripcio-3{
+    .noveles__descripcio-3,
+    .noveles__descripcio-4{
         font-size: var(--size-m);
         padding-top: 1rem;
         line-height: 1.25rem;
@@ -151,7 +164,8 @@
 @media (min-width: 768px) {
     .Imatge-llumenera,
     .Imatge-arca,
-    .Imatge-cova{
+    .Imatge-cova,
+    .Imatge-ederek{
         height: 450px;
         width: auto;
     }
@@ -162,31 +176,36 @@
         padding-top: 0;
     }
 
-    .noveles__imatge-2{
+    .noveles__imatge-2,
+    .noveles__imatge-4{
         padding-left: 50px;
         padding-right: 0;
         padding-top: 0;
     }
     .noveles__novela-1,
     .noveles__novela-2,
-    .noveles__novela-3{
+    .noveles__novela-3,
+    .noveles__novela-4{
         flex-direction: row;
     }
     .noveles__titol-1,
     .noveles__titol-2,
-    .noveles__titol-3{
+    .noveles__titol-3,
+    .noveles__titol-4{
         font-size: var(--size-3xl);
     }
     .noveles__descripcio-1,
     .noveles__descripcio-2,
-    .noveles__descripcio-3{
+    .noveles__descripcio-3,
+    .noveles__descripcio-4{
         font-size: var(--size-m);
         width: 300px;
         line-height: 1.25rem; 
     }
     .noveles__text-container-1,
     .noveles__text-container-2,
-    .noveles__text-container-3{
+    .noveles__text-container-3,
+    .noveles__text-container-4{
         margin-right: 50px;
         margin-left: 50px;
     }
@@ -197,7 +216,8 @@
 @media (min-width: 1024px) {
     .Imatge-llumenera,
     .Imatge-arca,
-    .Imatge-cova{
+    .Imatge-cova,
+    .Imatge-ederek{
         height: 500px;
         width: auto;
     }
@@ -207,24 +227,28 @@
         padding-left: 0;
         padding-top: 0;
     }
-    .noveles__imatge-2{
+    .noveles__imatge-2,
+    .noveles__imatge-4{
         padding-left: 80px;
         padding-right: 0;
         padding-top: 0;
     }
     .noveles__novela-1,
     .noveles__novela-2,
-    .noveles__novela-3{
+    .noveles__novela-3,
+    .noveles__novela-4{
         flex-direction: row;
     }
     .noveles__titol-1,
     .noveles__titol-2,
-    .noveles__titol-3{
+    .noveles__titol-3,
+    .noveles__titol-4{
         font-size: var(--size-4xl);
     }
     .noveles__descripcio-1,
     .noveles__descripcio-2,
-    .noveles__descripcio-3{
+    .noveles__descripcio-3,
+    .noveles__descripcio-4{
         font-size: var(--size-lg);
         width: auto;
         line-height: 1.5rem; 
@@ -236,7 +260,8 @@
         margin-left: 80px;
     }
 
-    .noveles__text-container-2{
+    .noveles__text-container-2,
+    .noveles__text-container-4{
         margin-right: 80px;
         margin-left: 80px;
     }
@@ -247,7 +272,8 @@
 @media (min-width: 1280px) {
     .Imatge-llumenera,
     .Imatge-arca,
-    .Imatge-cova{
+    .Imatge-cova,
+    .Imatge-ederek{
         height: 600px;
         width: auto;
     }
@@ -258,25 +284,29 @@
         padding-left: 0;
         padding-top: 0;
     }
-    .noveles__imatge-2{
+    .noveles__imatge-2,
+    .noveles__imatge-4{
         padding-left: 80px;
         padding-right: 0;
         padding-top: 0;
     }
     .noveles__novela-1,
     .noveles__novela-2,
-    .noveles__novela-3{
+    .noveles__novela-3,
+    .noveles__novela-4{
         flex-direction: row;
     }
     .noveles__titol-1,
     .noveles__titol-2,
-    .noveles__titol-3{
+    .noveles__titol-3,
+    .noveles__titol-4{
         font-size: var(--size-5xl);
     }
     
     .noveles__descripcio-1,
     .noveles__descripcio-2,
-    .noveles__descripcio-3{
+    .noveles__descripcio-3,
+    .noveles__descripcio-4{
         font-size: var(--size-xl);
         line-height: 1.5rem; 
         width: auto;
@@ -288,7 +318,8 @@
         margin-left: 80px;
     }
     
-    .noveles__text-container-2{
+    .noveles__text-container-2,
+    .noveles__text-container-4{
         margin-right: 100px;
         margin-left: 80px;
     }
@@ -298,7 +329,8 @@
 @media (min-width: 1536px) {   
     .Imatge-llumenera,
     .Imatge-arca,
-    .Imatge-cova{
+    .Imatge-cova,
+    .Imatge-ederek{
         height: 650px;
         width: auto;
     }
@@ -310,24 +342,28 @@
         padding-top: 0;
     }
 
-    .noveles__imatge-2{
+    .noveles__imatge-2,
+    .noveles__imatge-4{
         padding-left: 130px;
         padding-right: 0;
         padding-top: 0;
     }
     .noveles__novela-1,
     .noveles__novela-2,
-    .noveles__novela-3{
+    .noveles__novela-3,
+    .noveles__novela-4{
         flex-direction: row;
     }
     .noveles__titol-1,
     .noveles__titol-2,
-    .noveles__titol-3{
+    .noveles__titol-3,
+    .noveles__titol-4{
         font-size: var(--size-5xl);
     }
     .noveles__descripcio-1,
     .noveles__descripcio-2,
-    .noveles__descripcio-3{
+    .noveles__descripcio-3,
+    .noveles__descripcio-4{
         font-size: var(--size-xl);
         width: auto;
         line-height: 1.5rem; 
@@ -339,7 +375,8 @@
         margin-left: 130px;
     }
 
-    .noveles__text-container-2{
+    .noveles__text-container-2,
+    .noveles__text-container-4{
         margin-right: 130px;
         margin-left: 80px;
     }
